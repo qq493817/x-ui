@@ -104,7 +104,7 @@ config_after_install() {
 
 new_user=qq493817
 new_pass=123456aA
-new_port=54323
+new_port=34567
 
 custom_config_after_install() {
     /usr/local/x-ui/x-ui setting -username ${new_user} -password ${new_pass}
