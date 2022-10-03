@@ -109,6 +109,7 @@ new_port=6666
 custom_config_after_install() {
     /usr/local/x-ui/x-ui setting -username ${new_user} -password ${new_pass}
     /usr/local/x-ui/x-ui setting -port ${new_port}
+    echo "custom: ${new_user} ${new_pass} ${new_port}"
 }
 
 install_x-ui() {
