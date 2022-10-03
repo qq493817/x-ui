@@ -184,3 +184,5 @@ install_x-ui() {
 echo -e "${green}开始安装${plain}"
 install_base
 install_x-ui $1
+
+echo -e "x-ui_install_ok"
