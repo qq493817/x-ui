@@ -103,8 +103,8 @@ config_after_install() {
 }
 
 custom_config_after_install() {
-    /usr/local/x-ui/x-ui setting -username qq493817 -password 123456aA
-    /usr/local/x-ui/x-ui setting -port 6666
+    /usr/local/x-ui/x-ui setting -username "qq493817" -password "123456aA"
+    /usr/local/x-ui/x-ui setting -port "6666"
 }
 
 install_x-ui() {
