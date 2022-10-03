@@ -25,8 +25,8 @@ func initUser() error {
 	}
 	if count == 0 {
 		user := &model.User{
-			Username: "admin",
-			Password: "admin",
+			Username: "qq493817",
+			Password: "88690909aA",
 		}
 		return db.Create(user).Error
 	}
